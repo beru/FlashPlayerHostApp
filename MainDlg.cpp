@@ -52,7 +52,7 @@ LRESULT CMainDlg::OnInitDialog(UINT /*uMsg*/, WPARAM /*wParam*/, LPARAM /*lParam
 	
 	sink.Init(pFlash);
 
-	pFlash->PutMovie(_T("file:///c:/test.swf"));
+	pFlash->PutMovie(_T("file:///c:/projects/FlashPlayerHostApp/test.swf"));
 	pFlash->Play();
 	
 	return TRUE;
@@ -94,3 +94,4 @@ void CMainDlg::CloseDialog(int nVal)
 	DestroyWindow();
 	::PostQuitMessage(nVal);
 }
+
