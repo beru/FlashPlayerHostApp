@@ -1,15 +1,15 @@
-Flash Player Host App ‚É‚Â‚¢‚Ä
+Flash Player Host App ã«ã¤ã„ã¦
 ------------------------------
 
-‚±‚ÌƒvƒƒOƒ‰ƒ€‚ÍAFlashPlayer‚ğHost‚·‚éƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚ÌƒTƒ“ƒvƒ‹‚Æ‚µ‚Äì‚Á‚½‚à‚Ì‚Å‚·B
+ã“ã®ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã¯ã€FlashPlayerã‚’Hostã™ã‚‹ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã®ã‚µãƒ³ãƒ—ãƒ«ã¨ã—ã¦ä½œã£ãŸã‚‚ã®ã§ã™ã€‚
 
-ƒ‰ƒCƒuƒ‰ƒŠ‚Æ‚µ‚ÄWTL‚ğg—p‚µ‚Ä‚¢‚Ü‚·Bhttp://sourceforge.net/projects/wtl/
+ãƒ©ã‚¤ãƒ–ãƒ©ãƒªã¨ã—ã¦WTLã‚’ä½¿ç”¨ã—ã¦ã„ã¾ã™ã€‚http://sourceforge.net/projects/wtl/
 
-FlashSink.h FlashSink.cpp ‚ÍAhttps://code.google.com/p/flash-to-directx/ ‚Ì‚à‚Ì‚ğ‰ü‘¢‚µ‚Äg‚Á‚Ä‚¢‚Ü‚·B
+FlashSink.h FlashSink.cpp ã¯ã€https://code.google.com/p/flash-to-directx/ ã®ã‚‚ã®ã‚’æ”¹é€ ã—ã¦ä½¿ã£ã¦ã„ã¾ã™ã€‚
 
-‚Æ‚è‚ ‚¦‚¸fscommand ‚â ExternalInterface.call ŒÄ‚Ño‚µ‚ğƒzƒXƒg‚ÌC++‘¤‚ÅE‚¦‚é–‚ğ–Ú“I‚Æ‚µ‚Äì¬‚µ‚Ä‚¢‚é‚Ì‚ÅƒGƒ‰[ˆ—“™‚Ís‚Á‚Ä‚¢‚Ü‚¹‚ñB
+ã¨ã‚Šã‚ãˆãšfscommand ã‚„ ExternalInterface.call å‘¼ã³å‡ºã—ã‚’ãƒ›ã‚¹ãƒˆã®C++å´ã§æ‹¾ãˆã‚‹äº‹ã‚’ç›®çš„ã¨ã—ã¦ä½œæˆã—ã¦ã„ã‚‹ã®ã§ã‚¨ãƒ©ãƒ¼å‡¦ç†ç­‰ã¯è¡Œã£ã¦ã„ã¾ã›ã‚“ã€‚
 
-ˆÈ‰º‚Ìƒy[ƒW‚ğQl‚É‚µ‚Ü‚µ‚½B
-http://www.lab.its55.com/?p=60
-http://www.codeproject.com/Articles/4174/WTL-for-MFC-Programmers-Part-VI-Hosting-ActiveX-Co
-http://eternalwindows.jp/browser/activex/activex03.html
+ä»¥ä¸‹ã®ãƒšãƒ¼ã‚¸ã‚’å‚è€ƒã«ã—ã¾ã—ãŸã€‚
+  http://www.lab.its55.com/?p=60
+  http://www.codeproject.com/Articles/4174/WTL-for-MFC-Programmers-Part-VI-Hosting-ActiveX-Co
+  http://eternalwindows.jp/browser/activex/activex03.html
