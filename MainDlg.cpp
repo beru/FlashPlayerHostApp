@@ -52,7 +52,7 @@ LRESULT CMainDlg::OnInitDialog(UINT /*uMsg*/, WPARAM /*wParam*/, LPARAM /*lParam
 	
 	sink.Init(pFlash);
 
-	pFlash->PutMovie(_T("file:///c:/projects/FlashPlayerHostApp/test.swf"));
+	pFlash->PutMovie(_T("file:///c:/projects/FlashPlayerHostApp/AS2test/bin/test.swf"));
 	pFlash->Play();
 	
 	return TRUE;

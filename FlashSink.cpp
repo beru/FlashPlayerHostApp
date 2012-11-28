@@ -39,6 +39,8 @@ CFlashSink::~CFlashSink()
 //---------------------------------------------------------------------
 HRESULT CFlashSink::Init(ShockwaveFlashObjects::IShockwaveFlash* pInterface)
 {
+	m_pInterface = pInterface;
+	
 
 	HRESULT hr = NOERROR;
 	LPCONNECTIONPOINTCONTAINER pConnectionPoint = NULL;
@@ -146,11 +148,17 @@ HRESULT STDMETHODCALLTYPE CFlashSink::Invoke(DISPID dispIdMember, REFIID riid, L
 	switch (dispIdMember)
 	{
 	case 0xc5: // FlashCall
-		if (pDispParams->cArgs != 1 || pDispParams->rgvarg[0].vt != VT_BSTR) return E_INVALIDARG;
+		{
+			if (pDispParams->cArgs != 1 || pDispParams->rgvarg[0].vt != VT_BSTR) return E_INVALIDARG;
+			HRESULT hr = m_pInterface->SetReturnValue(_T("<string>aaa</string>"));
+		}
+		
 //		return m_flashPlayer->FlashCall(pDispParams->rgvarg[0].bstrVal);
+		break;
 	case 0x96: // FSCommand
 		if (pDispParams->cArgs != 2 || pDispParams->rgvarg[0].vt != VT_BSTR || pDispParams->rgvarg[1].vt != VT_BSTR) return E_INVALIDARG;
 //		return m_flashPlayer->FSCommand(pDispParams->rgvarg[1].bstrVal, pDispParams->rgvarg[0].bstrVal);
+		break;
 	case 0x7a6: // OnProgress
 		return E_NOTIMPL;
 	case DISPID_READYSTATECHANGE:

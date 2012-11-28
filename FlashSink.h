@@ -30,11 +30,11 @@
 class CFlashSink : public ShockwaveFlashObjects::_IShockwaveFlashEvents
 {
 public:
+	ShockwaveFlashObjects::IShockwaveFlash* m_pInterface;
 	LPCONNECTIONPOINT		m_connectionPoint;	
 	DWORD					m_cookie;
 	ULONG					m_refs;
-	class CFlashDXPlayer*	m_flashPlayer;
-
+	
 public:
 	//---------------------------------------------------------------------
 	CFlashSink();
